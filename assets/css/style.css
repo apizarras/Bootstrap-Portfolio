@@ -14,7 +14,7 @@ body {
 }
 
 .spacing {
-    padding-right: 15px;
+    padding-right: 25px;
 }
 .clearfix::after {
     content: "";
@@ -85,8 +85,8 @@ header {
     color: white;
     font-size: xx-large;
     float: left;
-    height: 50px;
-    padding: 20px 5px 0px 5px;
+    height: 60px;
+    padding: 12px 5px 5px 5px;
 }
 
 .floatleft {
@@ -166,4 +166,12 @@ footer {
     height: 40px;
     width: 40px;
     margin-top: 5px;
+}
+
+.tableicons {
+    border: 2px solid #0a1616;
+    padding: 20px;
+    display: grid;
+    Justify-content: center;
+    align-items: center;
 }
