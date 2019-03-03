@@ -39,3 +39,8 @@
 .font-size-md {
     font-size: 1rem;
 }
+
+.img-size {
+    max-width: 8rem;
+    max-height: 8rem;
+}
