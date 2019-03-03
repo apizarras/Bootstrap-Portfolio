@@ -20,8 +20,6 @@
 
 .icon-size {
     width: 5rem;
-    height: 5rem;
-    margin-top: 3rem;
 }
 
 .img-blur {
@@ -34,9 +32,10 @@
 }
 
 .font-size-lg {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .font-size-md {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }

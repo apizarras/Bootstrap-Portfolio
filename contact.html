@@ -9,58 +9,57 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
-    <div>
-        <header class="displayflex, container">
-            <section class="box">
-            <h1 class="name">Angela Pizarras</h1>
-             <div class="topnav">
-                <a class="spacing" href="index.html">About</a>
-                <a class="spacing" href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div> 
-        </section>
-         </header>
-    </div>     
+<body class="bg-secondary text-white">
+            <!--getbootstrap.com navbar here-->       
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark container-fluid box-sizing-none">
+                    <img src="./assets/images/iconfinder_transparent_63297.png" alt="Logo" class="col-sm-1 icon-size">
+          
+                      <h1 class="navbar-brand col-sm-2 float-left red font-size-lg">Angela Pizarras</h1>
+          
+                    
+                      <div class="col-sm-9 navbar-nav mr-auto ml-2 text-right" id="navbarSupportedContent">
+          
+                          <div class="nav-item active">
+                            <a class="nav-link red font-size-md" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                          </div>
+                          <div class="nav-item active">
+                            <a class="nav-link red font-size-md" href="./portfolio.html">Portfolio<span class="sr-only"></span></a>
+                          </div>
+                          <div class="nav-item active">
+                            <a class="nav-link red font-size-md" href="./contact.html">Contact<span class="sr-only"></span></a>
+                          </div>
+          
+          
+                      </div>
+                    </nav>
+          <!--end bootstrap navbar-->
 
-    <br>
-    <br>
-    <br>
-    <br>
+        <div class="form-group">
+        <h1 class="pl-2">Contact</h1>
 
-        <div class="form">
-        <h1 class="fontteal">Contact</h1>
-            <br>
         <hr class="grey">
-            <br>
-        <form action="mailto:angelalee.p@gmail.com?subject=webcontact" method="post">
-             <div>
+
+        <div class="container border">
+        <form action="mailto:angelalee.p@gmail.com?subject=webcontact" class="pt-2 pb-2"method="post">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
-            </div>
-            <div>
+                <input type="text" class="form-control" id="name" name="user_name">
                 <label for="Email">Email:</label>
-                <input type="email" id="Email" name="user_mail">
-            </div>
-            <div>
+                <input type="email" class="form-control" id="Email" name="user_mail">
+
                 <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-            </div>
+                <textarea id="msg" class="form-control" name="user_message"></textarea>
+
             <br>
             <div>
                 <button class="button" type="submit">Submit</button>
             </div>
         </form>
         </div>
+    </div>
 
-        <footer class="footer">
-            <p>Copyright©</p>
-            <a href="https://github.com/apizarras/">
-                <img src="assets/images/GitHub-Mark.png" alt="Github Link" class="footerimg">
-            </a>
-            <a href="https://www.linkedin.com/in/angela-pizarras-25687814">
-                <img src="assets/images/linkedin.jpg" alt="LinkedInProfile" class="footerimg">
-            </a>
+
+    <footer class="bg-dark fixed-bottom">
+            <p class="text-center pt-2">Copyright©</p>
         </footer>
    
 </body>
