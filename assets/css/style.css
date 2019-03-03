@@ -1,3 +1,5 @@
+
+
 .contain-banner {
     position: relative;
     text-align: center;
@@ -19,6 +21,22 @@
 .icon-size {
     width: 5rem;
     height: 5rem;
-    margin-left: 5rem;
     margin-top: 3rem;
+}
+
+.img-blur {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.red {
+    color: rgb(163, 5, 5) !important;
+}
+
+.font-size-lg {
+    font-size: 2rem;
+}
+
+.font-size-md {
+    font-size: 1.5rem;
 }

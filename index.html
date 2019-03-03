@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/open-iconic-master/font/css/open-iconic-bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <title>Angela Pizarras Portfolio - Bootstrap</title>
 
     </head> 
@@ -15,33 +15,33 @@
     <body class="bg-secondary text-white"> 
 
         <!--getbootstrap.com navbar here-->       
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark row">
-          <img src="" alt="Logo" class="col-1">
-            <a class="navbar-brand col" href="#">Angela Pizarras</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark container-fluid box-sizing-none">
+          <img src="./assets/images/iconfinder_transparent_63297.png" alt="Logo" class="col-1">
+
+            <h1 class="navbar-brand col-2 float-left red font-size-lg">Angela Pizarras</h1>
+
           
-            <div class="float-right" id="navbarSupportedContent">
-              <div class="navbar-nav mr-auto">
-                <li class="col nav-item active">
-                  <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+            <div class="col-9 navbar-nav mr-auto ml-2" id="navbarSupportedContent">
+
+                <li class="nav-item active">
+                  <a class="nav-link red font-size-md" href="./index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="col nav-item active">
-                  <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only"></span></a>
+                <li class="nav-item active">
+                  <a class="nav-link red font-size-md" href="./portfolio.html">Portfolio<span class="sr-only"></span></a>
                 </li>
-                <li class="col nav-item active">
-                  <a class"nav-link" href="./contact.html">Contact<span class="sr-only"></span></a>
+                <li class="nav-item active">
+                  <a class="nav-link red font-size-md" href="./contact.html">Contact<span class="sr-only"></span></a>
                 </li>
               </ul>
+
             </div>
           </nav>
 <!--end bootstrap navbar-->
 
 <!--header banner area-->
 <div class="contain-banner">
-  <img src="https://images.unsplash.com/photo-1543007629-00f37dfe03f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" 
-  class="img-fluid img-height" alt="Responsive image">
+  <img src="./assets/images/20180909_135346.jpg" 
+  class="img-fluid img-height img-blur" alt="Responsive image">
     <div class="text-block">
     <h1 class="centered">Angela Pizarras</h1>
     <h5>Front-End Web Developer In The Making</h5>
@@ -53,7 +53,7 @@
 <div class="container">
   <div class="row mt-3">
 
-        <h2 class="col-3">About Me</h2>
+        <h2 class="col-3 text-center">About</h2>
 
         <div class="col-6">
             <p>
@@ -70,13 +70,20 @@
           </div>
         <div class="col-3">
           <!--icons from https://www.linkedin.com/in/angela-pizarras-25687814-->
+          <ul class="text-center">
+            <li>
           <a href="https://www.linkedin.com/in/angela-pizarras-25687814">
             <img src="./assets/images/linkedin.jpg" alt="LinkedIn Profile" class="icon-size rounded"></a>
+            <li></li>
+          </li>
           <a href="https://github.com/apizarras/">
             <img src="./assets/images/GitHub-Mark.png" alt="Github" class="icon-size rounded"></a>
+            <li></li>
+          </li>
           <a href="contact.html">
-            <img src="" alt="Email Me" class="icon-size rounded"></a>
-
+            <img src="./assets/images/email-envelope (1).png" alt="Email Me" class="icon-size rounded"></a>
+          </li>
+          </ul>
         </div>
     </div>
   </div>
