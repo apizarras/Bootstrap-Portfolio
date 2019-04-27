@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--wireframe: http://framebox.org/AiAOI-->
-        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/open-iconic-master/font/css/open-iconic-bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <title>Angela Pizarras Portfolio - Bootstrap - Home</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--wireframe: http://framebox.org/AiAOI-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="assets/css/open-iconic-master/font/css/open-iconic-bootstrap.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Angela Pizarras Portfolio - Bootstrap - Home</title>
+  </head> 
 
-    </head> 
-
-    <body> 
-
-        <!--getbootstrap.com navbar here-->       
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark container-fluid box-sizing-none">
-          <img src="./assets/images/iconfinder_transparent_63297.png" alt="Logo" class="col-sm-1 icon-size">
-
-            <h1 class="navbar-brand col-sm-2 float-left red font-size-lg">Angela Pizarras</h1>
-
-          
+  <body> 
+    <header class="banner site-header" role="banner" id="top">
+      <div class="container">
+      <!--getbootstrap.com navbar here-->       
+      <nav class="row navbar navbar-expand-lg navbar-light bg-faded" role="navigation">
+        <a class="navbar-brand col-6 col-lg-2 active" href="index.html" alt class="d-inline-block align-top"><img src="./assets/images/AP slant logo.JPG" alt="Logo" class="img-height"></a>
+        <button id="toggle-menu" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <i class="fas fa-bars" id="hambuger"></i>
+        </button>
+        <div class="navbar-collapse col-lg-10 collapse" id="navbarNavDropdown">
+          <div class="container">
+          <div class="row">
+            <ul class="nav-item aos-init aos-animate" data-aos="zoom-in-down" data-aos-delay="100">
             <div class="col-sm-9 navbar-nav mr-auto ml-2 text-right" id="navbarSupportedContent">
-
-                <div class="nav-item active">
+                <li class="nav-item active">
                   <a class="nav-link red font-size-md" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                </div>
-                <div class="nav-item active">
+                </li>
+                <li class="nav-item active">
                   <a class="nav-link red font-size-md" href="./portfolio.html">Portfolio<span class="sr-only"></span></a>
-                </div>
-                <div class="nav-item active">
+                </li>
+                <li class="nav-item active">
                   <a class="nav-link red font-size-md" href="./aboutme.html">About<span class="sr-only"></span></a>
-                </div>
-                <div class="nav-item active">
+                </li>
+                <li class="nav-item active">
                   <a class="nav-link red font-size-md" href="./contact.html">Contact<span class="sr-only"></span></a>
-                </div>
+                </li>
            </div>
-          </nav>
+          </ul>
+          </div>
+        </div>
+          </div>
+        </nav>
+      </div>
+    </header>
 <!--end bootstrap navbar-->
 
 <!--header banner area-->
@@ -44,8 +54,8 @@
   <img src="./assets/images/20180909_135346.jpg" 
   class="img-fluid img-height img-blur" alt="Responsive image">
     <div class="text-block">
-    <h1 class="centered">Angela Pizarras</h1>
-    <h5>Front-End Web Developer In The Making</h5>
+    <h1 class="centered font-abril">Angela Pizarras</h1>
+    <h5 class="font-abril">Front-End Web Developer In The Making</h5>
     </div>
 </div>
 <!--end header banner area-->
@@ -53,22 +63,6 @@
 
 <div class="container">
   <div class="row mt-3">
-
-        <h2 class="col-3 text-center">About</h2>
-
-        <div class="col-6 pl-4">
-            <p>
-            Experienced Consultant with a demonstrated history of working in the computer software industry. Angela Pizarras has well-rounded business experience in the areas of consulting, technology, and operations, Angela Pizarras is certified Salesforce Administrator that has worked over 5 years in the Salesforce ecosystem. In most recent years, her focus has been in consulting, specifically on technical projects that solve for complex business scenarios. Her passion revolves around educating clients about how to get the most from their technology. She is currently working as a Product Success Manager.
-            </p>
-
-            <p>
-            In her spare time, Angela's friends know her to be a delightful cook, movie enthusiast, dog lover, and former esthetician. 
-            </p>
-
-            <p>
-            As she continues to build her programming skills, she hopes to one day land a full time developer role.
-            </p>
-          </div>
         <div class="col-3">
           <!--icons from https://www.linkedin.com/in/angela-pizarras-25687814-->
           <ul class="text-center">
