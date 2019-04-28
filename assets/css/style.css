@@ -11,6 +11,10 @@
     width: auto;
 }
 
+.img-right {
+    text-align: right;
+}
+
 .text-block {
     position: absolute;
     color: white;
@@ -68,6 +72,13 @@
     font-size: 1rem;
 }
 
+.martel {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Martel', serif;
+    font-size: 1.5rem;
+}
+
 .height {
     height: 3rem;
 }
@@ -86,6 +97,10 @@
     font-size: 5vw;
 }
 
+.medium-font {
+    font-size: 2vw;
+}
+
 a:hover {
     font-size: 150%;
 }
@@ -93,6 +108,11 @@ a:hover {
 a:active {
     font-size: 150%;
 }
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
 #toggle-menu {
     height: 3rem;
     width: 3rem;
@@ -108,7 +128,7 @@ a:active {
     margin: 0vw 20vw 0vw 0vw;
 }
 
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
+#headshot-height {
+    height: 10vw;
+}
 
