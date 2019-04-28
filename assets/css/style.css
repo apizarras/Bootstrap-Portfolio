@@ -108,3 +108,7 @@ a:active {
     margin: 0vw 20vw 0vw 0vw;
 }
 
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
