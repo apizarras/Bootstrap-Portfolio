@@ -132,3 +132,8 @@ body { font-family: sans-serif; }
     height: 10vw;
 }
 
+#form-border {
+    border: 5px solid;
+    border-style: groove;
+}
+
